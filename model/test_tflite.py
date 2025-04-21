@@ -16,7 +16,7 @@ mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 
 # Load and preprocess image
-image_path = r"C:\Users\kumbh\Desktop\spine_pose_project\dataset\test.png"
+image_path = r"C:\Users\kumbh\Desktop\spine_pose_project\dataset\normal\Untitled.jpg"
 image = cv2.imread(image_path)
 if image is None:
     print("❌ Image not found. Check the path:", image_path)
