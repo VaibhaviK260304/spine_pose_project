@@ -11,7 +11,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load model
-model = joblib.load('spine_pose_model.pkl')
+model = joblib.load('scoliosis_classifier_new.h5')
 
 # Mediapipe setup
 mp_pose = mp.solutions.pose
